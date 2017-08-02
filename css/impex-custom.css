@@ -1,0 +1,120 @@
+/**
+ * Author: Jesse.zhou
+ */
+body, button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 {
+	font-family: Helvetica, Microsoft YaHei, '宋体' , Tahoma, Arial, "\5b8b\4f53", sans-serif;
+}
+#scripts_container {
+	margin-bottom: 130px;
+	font-family: consolas;
+}
+#scripts_container input , #scripts_container textarea {
+	font-family: consolas;
+}
+#scripts_container input:not(:focus) + .form-control-feedback {
+	display: none;
+}
+#scripts_container .textarea-sm {
+	padding: 4px 12px;
+}
+/**
+ * height: 30px;
+ * padding: 4px 12px;
+ */
+.data-unique {
+	text-transform: capitalize;
+}
+.col-operation {
+	width: 65px;
+	vertical-align: middle !important;
+}
+.panel .divider {
+	height: 1px;
+}
+.panel .divider:last-child {
+	height: 0px;
+}
+.impex-block-nav .pagination {
+	margin: 0;
+}
+.menu-insert-module a {
+	cursor: pointer;
+}
+.module-panel {
+	position: relative;
+}
+.module-panel .index-no {
+    position: absolute;
+    top: -1px;
+    left: -58px;
+    min-width: 55px;
+    font-size: x-large;
+    border-radius: 0;
+}
+.module-table thead tr th {
+	vertical-align: top;
+	font-size: smaller;
+}
+.before-remove-module-mask, .not-joining-calc-mask {
+	position: absolute;
+    background: lightgray;
+    z-index: 1;
+    opacity: 0.9;
+    
+	display: -webkit-box;
+  	-webkit-box-orient: horizontal;
+  	-webkit-box-pack: center;
+  	-webkit-box-align: center;
+  	
+  	display: -moz-box;
+	-moz-box-orient: horizontal;
+	-moz-box-pack: center;
+	-moz-box-align: center;
+	
+	display: -o-box;
+	-o-box-orient: horizontal;
+	-o-box-pack: center;
+	-o-box-align: center;
+	
+	display: -ms-box;
+	-ms-box-orient: horizontal;
+	-ms-box-pack: center;
+	-ms-box-align: center;
+	
+	display: box;
+	box-orient: horizontal;
+	box-pack: center;
+	box-align: center;
+}
+.before-remove-module-mask span, .not-joining-calc-mask span {
+	font-size: x-large;
+}
+.before-remove-module-mask .btn-remove-module-cancel {
+	position: relative;
+	top: -5px;
+}
+.not-joining-calc-module .calc-switch {
+	z-index: 1;
+}
+.navbar-footer .control-row {
+	padding-top: 10px;
+}
+
+#modules_preview_modal .modal-lg {
+	width: 1300px;
+}
+#modules_preview_modal .modal-header {
+	padding: 10px 15px;
+}
+#modules_preview_modal .modal-body {
+	padding: 5px;
+}
+#txtCode {
+	font-family: consolas;
+	cursor: auto;
+}
+.module-table tr.row-eg td {
+	font-size: smaller;
+	vertical-align: top;
+	color: #9d9d9d;
+}
